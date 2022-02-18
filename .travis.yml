@@ -15,4 +15,4 @@ deploy:
   provider: heroku
   app: epam-steam-app
   api_key:
-    secure: "19e832bf-8044-4721-95cb-e923e654f264"
+    secure: 19e832bf-8044-4721-95cb-e923e654f264
