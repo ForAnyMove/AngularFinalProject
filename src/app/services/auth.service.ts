@@ -14,13 +14,13 @@ export class AuthService {
   constructor(private http: HttpClient) { }
 
   public register(user: Object): Observable<any> {
-    return this.http.post('http://localhost:4200/api/auth/register', {
+    return this.http.post('/api/auth/register', {
       user
     }, httpOptions);
   }
   
   public login(email: string, password: string): Observable<any> {
-    return this.http.post('http://localhost:4200/api/auth/login', {
+    return this.http.post('/api/auth/login', {
       email,
       password
     }, httpOptions);
