@@ -1,0 +1,7 @@
+module.exports = {
+  PORT: process.env.PORT || 4200,
+  JWT_SECRET: process.env.JWT_SECRET || "secret",
+  DB_URL:
+    process.env.DB_URL ||
+    "mongodb+srv://testUser:testUser1@cluster0.6z3ld.mongodb.net/steam?retryWrites=true&w=majority",
+};
